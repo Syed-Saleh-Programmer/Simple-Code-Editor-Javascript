@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simple HTML Editor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="editor-container">
+      <div id="editor-header">
+        <h1>Code</h1>
+      </div>
+      <div class="editor-inside">
+        <div class="ln-container">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+          <span>4</span>
+          <span>5</span>
+          <span>6</span>
+          <span>7</span>
+          <span>8</span>
+          <span>9</span>
+          <span>10</span>
+          <span>11</span>
+          <span>12</span>
+          <span>13</span>
+          <span>14</span>
+        </div>
+        <textarea id="editor" spellcheck="false"></textarea>
+      </div>
+    </div>
+    <div id="preview-container">
+      <div id="preview-header">
+        <h1>
+          RizviSoft IDE
+          <span
+            style="
+              font-weight: 100;
+              font-family: system-ui;
+              margin: 0 5px 0 5px;
+            "
+            >></span
+          >
+          <span class="preview-title">...</span>
+        </h1>
+      </div>
+      <iframe id="preview"></iframe>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

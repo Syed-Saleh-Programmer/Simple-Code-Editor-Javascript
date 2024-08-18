@@ -1,0 +1,122 @@
+      * {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+      }
+
+      body {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          background-color: #4b4b4b;
+      }
+
+      body.light {
+          background-color: white;
+      }
+
+      #editor-container {
+          width: 50%;
+          height: 86vh;
+          padding: 20px;
+          
+      }
+
+      #editor {
+          width: 605px;
+          height: 86vh;
+          font-family: monospace;
+          font-size: 16px;
+          font-weight: 700;
+          letter-spacing: 1.5px;
+          word-spacing: 3.5px;
+          box-sizing: border-box;
+          padding: 10px;
+          border: none;
+          background-color: #292929;
+          color: rgba(149, 155, 80, 0.751);
+          outline: none;
+          resize: none;
+          border-top: 1px solid grey;
+          border-left: 1px solid grey;
+          user-select: contain;
+          
+
+      }
+
+
+
+
+
+      #editor-header {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 50px;
+          background-color: #444444;
+          color: grey;
+          font-size: 12px;
+          font-family: monospace;
+          font-weight: lighter;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+      }
+
+      #preview-container {
+          width: 50%;
+          height: 86vh;
+          padding: 20px;
+
+      }
+
+      #preview {
+          width: 100%;
+          height: 86vh;
+          border: none;
+          background-color: #fff;
+          color: #000;
+      }
+
+      #preview-header {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 50px;
+          background-color: #444444;
+          color: grey;
+          font-size: 10px;
+          font-family: monospace;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+      }
+
+      .editor-inside {
+          top: 0;
+          left: 0;
+          width: fit-content;
+          height: fit-content;
+          display: flex;
+          flex-direction: row;
+      }
+
+      .ln-container {
+          width: 40px;
+          min-height: 86vh;
+          background: #383838;
+          color: grey;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+
+      .ln-container span {
+          position: relative;
+          top: 0;
+          left: 0;
+          /* padding: 4px 2px 4px 2px; */
+          text-align: center;
+          width: 100%;
+          font-size: 16.2px;
+          border-top: 1px solid #000000;
+      }
